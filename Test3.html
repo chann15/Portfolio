@@ -42,7 +42,7 @@
     </nav>
 <!--Nav Links-->
     <div class="container" style="margin-top: 80px;"> 
-        <section id="section1" class="py-5" style="height: 50vh;">
+        <section id="secotion12" class="py-5" style="height: 50vh;">
             <h1>About Me</h1>
             <div class="container text-center">
               </div>
@@ -59,22 +59,17 @@
             </div>
             <div class = "text-center">
                 <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section3">Websites Developed in GGR472(Developing Web Maps)</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#section1">Elections Ontario</a>
                 </ul>
             </div>
             <div class = "text-center">
                 <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section3">CANUE Project</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#section2">Exploration of Toronto's Transit Accessibility</a>
                 </ul>
             </div>
             <div class = "text-center">
                 <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section3">Building Roots Project</a></li>
-                </ul>
-            </div>
-            <div class = "text-center">
-                <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section3">Exploration of the relationship between Covid Rates in Toronto's Historic Neighbhouhoods</a>
+                <li class="nav-item"><a class="nav-link text-dark" href="#section2">Exploration of the relationship between Covid Rates in Toronto's Historic Neighbhouhoods</a>
                 </ul>
             </div>
             <div class = "text-center">
@@ -87,18 +82,14 @@
                 <li class="nav-item"><a class="nav-link text-dark" href="#section3">Geovisulization of Standard Mortality Ratio against COVID-19 Infection Rate</a>
                 </ul>
             </div>
-            <div class = "text-center">
-                <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section3">Elections Ontario</a>
-                </ul>
-            </div>
+
         </section>
 
 
 
 
 <!--Election Ontario-->
-        <section id="section3" class="py-5" style="height: 180vh; background : white">
+        <section id="section1" class="py-5" style="height: 180vh; background : white">
             <div class="fs-1 fw-bold">Elections Ontario</div>
             <div class = "fs-5" style = "margin-bottom: 30px;"> At my time at Elections Ontario I got to learn more about Ontario's election system. Below is a sample of some of the geospatial products I construced during my time as a intern.</div>
 <!--Pilot Project-->
@@ -116,7 +107,6 @@
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -140,15 +130,70 @@
                 </div>
         </section>
 <!--Post Secondary insutions map-->
-        <section id="section3" class="py-5" style="height: 200vh; background : white">
+        <section class="py-5" style="height: 150vh; background : white">
             <div class = "fw-bold fs-3 text-left" style="margin-top: 15px" >Post Seconadry Insutions by Electoral District</div>
-            <p class = "fs-5 text-center"> This is a geovisualization of all the post secondary instutions by electoral district within Ontario. This was created in order to help asses stratagies to increase youth voting.
+            <p class = "fs-5 text-center" style="margin-top: 15px"> This is a geovisualization of all the post secondary instutions by electoral district within Ontario. This was created in order to help asses stratagies to increase youth voting.
                 The process invovled manually collecting all the post secondary instutions and the there repsective campus and geoporocessing the addreses.
             </p>
             <iframe src="Work/Post Secondary Institutions by ED.pdf" class="figure-img img-fluid rounded" style="width: 100vw; height: 95vh" frameborder="0"></iframe>
             <figcaption class="figure-caption text-center">Geovisualization of Post Secondary Instiutions By ED within Ontario</figcaption>
         </section>
 
+        <!--Make a note that these are course projects-->
+
+
+<!--Covid-19 Rate in Toronto-->
+        <section id = "section2" class="py-5" style="height: 95vh; background:white">
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class = "fw-bold fs-3 text-left" style="margin-bottom: 15px" >Examining the Relationship between Covid-19 Vaccination Accessibility and Covid-19 Rates</div>
+                    <p class = "fs-5">
+                        This project invovled examining the relationship between Covid-19 vaccination accessibility and Covid-19 rates.
+                        This was done through Python using packages such as geopandas and matplotlib. 
+                        This project invovled examining how accessible the COvid-19 vaccination clinics where by public transit then overlaying that infomration 
+                        above a chlorpoleth map of normalized covid-19 cases within Toronto and running an autocorrelation analysis. 
+                    </p>
+                    </div>
+                <div class = "col">
+                    <iframe src="Work/GGR375 Presentation.pdf" width="100%" height="600px"></iframe>
+                    <figcaption class="figure-caption text-center">Presentation about the relartionship between Covid-19 vaccination accessibility and Covid-19 rates</figcaption>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3" class="py-5" style="height: 150vh; background : white">
+            <div class = "fw-bold fs-3 text-left" style="margin-top: 15px" >Geovisualization of the Standard Mortality Ratio against COVID-19 Infection Rate within Ontario</div>
+            <p class = "fs-5 text-center" style="margin-top: 15px"> This is a geovisualization of the standard mortality ratio (SMR) against Covid-19 infection rate. 
+                The SMR was calculated using covid-19 mortality data, and population size. Similiary the Covid-19 infection rate was calcualted using such data.
+                The data was calculated and cleaned from Statistics Canada. 
+            
+            </p>
+            <iframe src="Work/Assignement1_final_draft.pdf" class="figure-img img-fluid rounded" style="width: 100vw; height: 120vh" frameborder="0"></iframe>
+            <figcaption class="figure-caption text-center">Geovisualization of the Standard Mortality Ratio against COVID-19 Infection Rate within Ontario</figcaption>
+        </section>
+
+        <section id="section3" class="py-5" style="height: 150vh; background : white">
+            <iframe src="https://arcg.is/0OCKeD" allowfullscreen style="width: 90vw; height: 70vh"></iframe>
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class = "fw-bold fs-3 text-left" style="margin-bottom: 15px" >Examining the Relationship between Covid-19 Vaccination Accessibility and Covid-19 Rates</div>
+                    <p class = "fs-5">
+                        This project invovled examining the relationship between Covid-19 vaccination accessibility and Covid-19 rates.
+                        This was done through Python using packages such as geopandas and matplotlib. 
+                        This project invovled examining how accessible the COvid-19 vaccination clinics where by public transit then overlaying that infomration 
+                        above a chlorpoleth map of normalized covid-19 cases within Toronto and running an autocorrelation analysis. 
+                    </p>
+                    </div>
+                <div class = "col">
+                    <iframe src="Work/GGR375 Presentation.pdf" width="100%" height="600px"></iframe>
+                    <figcaption class="figure-caption text-center">Presentation about the relartionship between Covid-19 vaccination accessibility and Covid-19 rates</figcaption>
+                </div>
+            </div>
+
+
+
+
+        </section>  
     </div>
 </body>
 </html>
