@@ -22,104 +22,61 @@
     </script>
 </head>
 
-
+<!--Nav Links-->
 
 <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand text-dark" href="#">My Page</a>
+            <a class="navbar-brand text-dark" href="#"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link text-dark" href="#section1">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="#section2">Portfolio Work</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="#section3">Section 3</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="work/pngegg.png" alt="Dropdown" style="width: 30px; height: 30px; border-radius: 50%;">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                          <li><a class="dropdown-item" href="#aboutme">About Me</a>
+                          <li><a class="dropdown-item" href="#section1">Elections Ontario</a></li>
+                          <li><a class="dropdown-item" href="#geovis">GGR376</a></li>
+                          <li><a class="dropdown-item" href="#section2">GGR375</a></li>
+                        </ul>
+                      </li>
                 </ul>
             </div>
         </div>
-    </nav> -->
-
-    <ul class="nav nav-pills ms-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle fixed-top" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      
-      
+    </nav>
+</body>
 
 
 
-
-
-<!--Nav Links-->
     <div class="container" style="margin-top: 80px;"> 
-        <section id="secotion12" class="py-5" style="height: 50vh;">
+        <section id="aboutme" class="py-5" style="height: 30vh;">
             <h1>About Me</h1>
             <div class="container text-center">
               </div>
-            <p>Hi my name is Nicholas. I am a fourth year student about to graduate from the University of Toronto, majoring in Human Geogrpahy and Minorning in GIS and History.</p>
-        </section>
-        <section id="'my_work" class="py-5" style="height: 50vh; background: lightgoldenrodyellow;""> 
-            <div class="text-center">
-                Mapping and Geospatial Projects
-            </div>
-            <div class = "text-center">
-                <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href=></a></li>
-                </ul>
-            </div>
-            <div class = "text-center">
-                <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section1">Elections Ontario</a>
-                </ul>
-            </div>
-            <div class = "text-center">
-                <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section2">Exploration of Toronto's Transit Accessibility</a>
-                </ul>
-            </div>
-            <div class = "text-center">
-                <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section2">Exploration of the relationship between Covid Rates in Toronto's Historic Neighbhouhoods</a>
-                </ul>
-            </div>
-            <div class = "text-center">
-                <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section3">Exploration of Transit Accessibility in Toronto</a>
-                </ul>
-            </div>
-            <div class = "text-center">
-                <ul class="list-unstyled">
-                <li class="nav-item"><a class="nav-link text-dark" href="#section3">Geovisulization of Standard Mortality Ratio against COVID-19 Infection Rate</a>
-                </ul>
-            </div>
-
+            <p class = "fs-5"> Hi, I'm Nicholas, a fourth-year student about to graduate from the University of Toronto, 
+                majoring in Human Geography and minoring in GIS and History.
+            </p>
         </section>
 
-
+        <section style="height: .5vh; width: 50%; background : black; margin: 20px auto;"></section>
 
 
 <!--Election Ontario-->
         <section id="section1" class="py-5" style="height: 180vh; background : white">
-            <div class="fs-1 fw-bold">Elections Ontario</div>
+            <h1>Elections Ontario</h1>
             <div class = "fs-5" style = "margin-bottom: 30px;"> At my time at Elections Ontario I got to learn more about Ontario's election system. Below is a sample of some of the geospatial products I construced during my time as a intern.</div>
 <!--Pilot Project-->
                 <div class="row align-items-center">
                   <div class="col">
-
-                    <div class = "fw-bold fs-3 text-left" style="margin-bottom: 15px" >Pilot Project</div>
+                    <h2>Pilot Project</h2>
                     <p class = "fs-5">
-                    This is a map I created for a pilot project, with the goal of mapping out all the polling locations within one electoral district. The goal of this project is to eventually have it expanded out to all the electoral
-                    district to give more information to voters, to allow them to more easily find the polling districts.
+                    This is a map I created for a pilot project. This pilot aimed to map out all the polling 
+                    locations within one electoral district with the eventual goal of expanding it to all electoral districts. 
+                    This in turn would help inform voters about the location of voting polls within there are electoral district.
                     </p>
                   </div>
                   <div class="col">
@@ -150,10 +107,11 @@
                 </div>
         </section>
 <!--Post Secondary insutions map-->
-        <section class="py-5" style="height: 150vh; background : white">
-            <div class = "fw-bold fs-3 text-left" style="margin-top: 15px" >Post Seconadry Insutions by Electoral District</div>
-            <p class = "fs-5 text-center" style="margin-top: 15px"> This is a geovisualization of all the post secondary instutions by electoral district within Ontario. This was created in order to help asses stratagies to increase youth voting.
-                The process invovled manually collecting all the post secondary instutions and the there repsective campus and geoporocessing the addreses.
+        <section class="py-5" style="height: 140vh; background : white">
+            <h2>Post Secondary Institutions by Electoral District</h2>
+            <p class = "fs-5 text-left" style="margin-top: 15px"> This is a geovisualization of all the post-secondary institutions by electoral district within Ontario.
+                This was created to help assess strategies to increase youth voting.
+                The process involved manually collecting all the post-secondary institutions and their respective campus and georeferencing the addresses.
             </p>
             <iframe src="Work/Post Secondary Institutions by ED.pdf" class="figure-img img-fluid rounded" style="width: 100vw; height: 95vh" frameborder="0"></iframe>
             <figcaption class="figure-caption text-center">Geovisualization of Post Secondary Instiutions By ED within Ontario</figcaption>
@@ -161,22 +119,69 @@
 
         <!--Make a note that these are course projects-->
 
+        <section style="height: .5vh; width: 50%; background : black; margin: 20px auto;"></section>
+        <section style="height: 2vh; width: 50%; background : white; margin: 20px auto;"></section>
 
-<!--GGR375 Course heading-->
-    <section id="section2" class="py-5" style="height: 180vh; background : white">
-        <div class="fs-1 fw-bold">GGR375, Introduction to Programming in GIS</div>
-        <div class = "fs-5" style = "margin-bottom: 30px;"> Below is the final term project that I did for GGR375</div>
+
+<!--GGR376 Course heading-->
+    <section id="geovis" class="py-5" style="height:40vh; background : white">
+        <h1>GGR376, Geovisualization</h1>
+        <div class = "fs-5" style = "margin-bottom: 30px;"> In this course, I learned how to increase the efficiency of communicating my findings through various techniques and medians, 
+            such as static and dynamic maps, 3D and 2D maps as well as story maps. 
+            Below are some of the projects that I worked on during this course.
+            </div>
+    </section>
+        <section id="section3" class="py-5" style="height: 180vh; background : white">
+            <h2>Geovisualization of the Standard Mortality Ratio against the</h2>
+            <h2>COVID-19 Infection Rate within Ontario</h2>
+            <p class = "fs-5 text-left" style="margin-top: 20px; margin-bottom: 25px;"> This is a geovisualization of the standard mortality ratio (SMR) against the COVID-19 infection rate. 
+                The SMR was calculated using covid-19 mortality data, and population size. 
+                Similarly, the COVID-19 infection rate was calculated using such data. 
+                The data was calculated and cleaned from Statistics Canada.
+            </p>
+            <iframe src="Work/Assignement1_final_draft.pdf" class="figure-img img-fluid rounded" style="width: 100vw; height: 120vh" frameborder="0"></iframe>
+            <figcaption class="figure-caption text-center">Geovisualization of the Standard Mortality Ratio against the COVID-19 Infection Rate within Ontario</figcaption>
+        </section>
+
+        <section id="section3" class="py-5" style="height: 8%; background : white">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h2>Examining the Relationship between COVID-19 Vaccination Accessibility and COVID-19 Rates</h2>
+                        <p class = "fs-5">
+                            This is a StoryMap examining the relationship between the growth of Toronto's bike network, 
+                            and the increase in bike theft over time. <div><a href="https://storymaps.arcgis.com/stories/69ad1e95001448faa4aac55c21ae7610">Link to the WebMap</a></div>
+                        </p>
+                    </div>
+                <div class = "col">
+                    <img src="Work/Screenshot.png" style="width: 100%; height: 400px; object-fit: cover; object-position: center;">
+
+                    <figcaption class="figure-caption text-center">A screenshot of what the webmap looks like</figcaption>
+                </div>
+            </div>
+        </section>
+
+        <section style="height: .5vh; width: 50%; background : black; margin: 20px auto;"></section>
+     
+
+
+    <!--GGR375 Course heading-->
+    <section id="section2" class="py-5" style="height: 130vh; background : white">
+        <h1>GGR375, Introduction to Programming in GIS</h1>
+        <div class = "fs-5" style = "margin-bottom: 30px;"> This course taught me how to use libraries such as Geopanadas and other GIS libraries, 
+            to help analyse and visualize spatial data. 
+            Below is the final term project that I did for GGR375.
+        </div>
 
 <!--Covid-19 Rate in Toronto-->
         <section id = "section2" class="py-5" style="height: 50vh; background:white">
             <div class="row align-items-center">
                 <div class="col">
-                    <div class = "fw-bold fs-3 text-left" style="margin-bottom: 15px" >Examining the Relationship between Covid-19 Vaccination Accessibility and Covid-19 Rates</div>
+                    <h2 >Examining the Relationship between COVID-19 Vaccination Accessibility and the COVID-19 Infection Rates</h2>
                     <p class = "fs-5">
-                        This project invovled examining the relationship between Covid-19 vaccination accessibility and Covid-19 rates.
+                        This project involved examining the relationship between Covid-19 vaccination accessibility and Covid-19 rates.
                         This was done through Python using packages such as geopandas and matplotlib. 
-                        This project invovled examining how accessible the COvid-19 vaccination clinics where by public transit then overlaying that infomration 
-                        above a chlorpoleth map of normalized covid-19 cases within Toronto and running an autocorrelation analysis. 
+                        This project involved examining how accessible the COVID-19 vaccination clinics whereby public transit and then overlaying that information 
+                        above a choropleth map of normalized covid-19 cases within Toronto and running an autocorrelation analysis. 
                     </p>
                     </div>
                 <div class = "col">
@@ -187,31 +192,15 @@
         </section>
     </section>
 
-<hr style="border: 3px solid black;">
-
-<!--GGR376 Course heading-->
-    <section id="section2" class="py-5" style="height: 180vh; background : white">
-        <div class="fs-1 fw-bold">GGR376, Geovisualization</div>
-        <div class = "fs-5" style = "margin-bottom: 30px;"> Below is some of the geovisualizations that I made during the span of the course</div>
 
 
-        <section id="section3" class="py-5" style="height: 150vh; background : white">
-            <div class = "fw-bold fs-3 text-left" style="margin-top: 15px" >Geovisualization of the Standard Mortality Ratio against COVID-19 Infection Rate within Ontario</div>
-            <p class = "fs-5 text-center" style="margin-top: 15px"> This is a geovisualization of the standard mortality ratio (SMR) against Covid-19 infection rate. 
-                The SMR was calculated using covid-19 mortality data, and population size. Similiary the Covid-19 infection rate was calcualted using such data.
-                The data was calculated and cleaned from Statistics Canada. 
-            
-            </p>
-            <iframe src="Work/Assignement1_final_draft.pdf" class="figure-img img-fluid rounded" style="width: 100vw; height: 120vh" frameborder="0"></iframe>
-            <figcaption class="figure-caption text-center">Geovisualization of the Standard Mortality Ratio against COVID-19 Infection Rate within Ontario</figcaption>
-        </section>
 
-        <section id="section3" class="py-5" style="height: 150vh; background : white">
-            <div class = "fw-bold fs-3 text-left" style="margin-top: 50px"> Bike Theft StoryMap</div>
-                    <div>The link brings you to a webmap that I created examining bike theft and the growth of Toronto's bike network.</div> 
-                    <div><a href="https://storymaps.arcgis.com/stories/69ad1e95001448faa4aac55c21ae7610">Go to WebMap</a></div>
-        </section>
+
+
+
+
     </section>  
     </div>
 </body>
 </html>
+
